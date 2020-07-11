@@ -10,7 +10,7 @@
 
 html{
     color: #555;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -201,6 +201,37 @@ h2:after{
     margin-bottom: 10px;
 }
 
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #f39c12;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* Secrets to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*----- LINKS ----*/
+
+a:link,
+a:visited{
+    color: #f39c12;
+    text-decoration: none;
+    border-bottom: 1px solid #f39c12;
+    padding-bottom: 1px;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 /*----- FEATURES SECTION -----*/
 
 .section-features .long-copy{
@@ -245,7 +276,7 @@ h2:after{
     opacity: 1;
 }
 
-/*------ STEPS SECTION -------*/
+/*------ HOW IT WORKS SECTION -------*/
 
 .section-steps{
     background-color: #f4f4f4;
@@ -292,4 +323,21 @@ h2:after{
     height:50px;
     width:auto;
     margin-right: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border:0;
+}
+
+/*------ CITIES SECTION -------*/
+
+.box img{
+    width:100%;
+    height:auto;
+    margin-bottom: 15px;
+}
+
+.city-features{
+    margin-bottom: 5px;
 }
