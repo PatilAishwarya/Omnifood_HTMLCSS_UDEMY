@@ -9,15 +9,15 @@
 }
 
 html{
-    color:#555;
+    color: #555;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size:20px;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
 }
 
 .row{
-    max-width:1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -28,17 +28,70 @@ header{
     background-size: cover; /* I want to see whole image */
     background-position: center;
     background-attachment: fixed; /* Image will be sticked to the position */
-    height:100vh;
+    height: 100vh;
 }
 
 .hero-text-box{
     position: absolute;
-    width:1140px;
-    top:50%;
-    left:50%;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%); /* translate ele to half of it's length and width */
 }
 
+/*----- HEADINGS ------*/
+
 h1{
-    margin:0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 220%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/*----- BUTTONS -----*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size:90%;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #c87f0a;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #f39c12;
+    color: #f39c12;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #c87f0a;
+    border: 1px solid #c87f0a;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #c87f0a;
+    color: #fff;
 }
