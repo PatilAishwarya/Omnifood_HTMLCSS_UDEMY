@@ -25,7 +25,7 @@
     }
 
     .works-step{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .works-step:last-of-type{
@@ -33,7 +33,7 @@
     }
 
     .steps-box:last-child{
-        margin-top: 50px;
+        margin-top: 85px;
     }
 
     .app-photo{
@@ -71,10 +71,93 @@
 
 /* For screen width >480px & <767px*/
 @media only screen and (max-width:767px){
+    body {font-size: 16px;}
+    section{ padding: 30px 0;}
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
 
+    .col{
+        width: 100%;
+        margin: 0 0 2% 0;
+    }
+
+    .long-copy{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 180%;
+    }
+
+    h2{
+        font-size: 150%;
+    }
+
+    .works-step div{
+        height: 40px;
+        width: 40px;
+        font-size: 120%;
+    }
+
+    .works-step:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .steps-box:last-child{
+        margin-top: 40px;
+    }
+
+    .steps-box:first-child{
+        text-align: center;
+    }
+
+     .app-photo{
+        width:40%;
+    }
+
+    footer{
+        font-size: 85%;
+    }
+
+    .footer-nav li,
+    .social-links li,
+    .main-nav li{
+        display: block;
+    }
+
+    .social-links{
+        margin-top: -21%;
+    }
+
+    blockquote{
+        margin-top: 30px;
+    }
+
+    .main-nav li{
+        margin-bottom: 10px;
+    }
+
+    .main-nav{
+        margin-top: 20px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
 }
 
 /* For screen width <= 480px*/
 @media only screen and (max-width:480px){
 
+    body {font-size: 14px;}
+    section{ padding: 20px 0;}
+    .contact-form{
+        width: 100%;
+    }
+
+    .social-links{
+        margin-top: -25%;
+    }
 }
