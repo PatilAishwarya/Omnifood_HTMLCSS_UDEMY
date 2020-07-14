@@ -1,15 +1,76 @@
 /* For screen wdith >1025px*/
 @media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
 
+    .row{
+        padding: 0 2%;
+    }
 }
 
-/* For screen width >769px & <1024px*/
+/* For screen width >768px & <1024px*/
 @media only screen and (max-width:1024px){
+    body{
+        font-size: 18px;
+    }
 
+    section{
+        padding: 60px 0;
+    }
+
+    .long-copy{
+        width: 80%;
+    }
+
+    .works-step{
+        margin-bottom: 20px;
+    }
+
+    .works-step:last-of-type{
+        margin-bottom: 70px;
+    }
+
+    .steps-box:last-child{
+        margin-top: 50px;
+    }
+
+    .app-photo{
+        width:50%;
+    }
+
+    .btn-app img{
+        height: 40px;
+    }
+
+    .icon-small{
+        width: 18px;
+    }
+
+    .city-features {
+        font-size: 15px;
+    }
+
+    .plan-box{
+        width: 100%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    footer{
+        font-size: 75%;
+    }
 }
 
-/* For screen width >480px & <768px*/
-@media only screen and (max-width:768px){
+/* For screen width >480px & <767px*/
+@media only screen and (max-width:767px){
 
 }
 
