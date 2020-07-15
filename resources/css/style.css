@@ -621,3 +621,17 @@ ion-social-instagram{
 .js--wp-3 .animate__animated{
     opacity: 1;
 }
+
+/*----------- MOBILE NAV -----------*/
+
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: #fff;
+}
